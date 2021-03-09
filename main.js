@@ -46,13 +46,15 @@ meAdam.lName = "Stebbins"
 meAdam.fullName = meAdam.fName + meAdam.lName
 
 // Add an `age` property and set it to a number.
-
+meAdam.age = 34
 
 // Add an address property and set it to an empty array.
-
+meAdam.address = []
 
 // Now push three strings into that array.
-
+meAdam.address.street = "Western Blvd"
+meAdam.address.city = "Jacksonville"
+meAdam.address.state = "North Carolina"
 
 // Part 3 - setting key-value pairs in-line.
 // Now make a new object, but this time we'll pre-populate it, not set it in any lines below it. In other words, the properties should be set the same way I initially set the `codeImmersivesObject` on line 1. It can be called whatever you want and can have whatever properties you want, as long as they include at least one string value, boolean value, number value, and array of numbers. The important thing here is: this should all be done within the brackets of the object, not below the place where the object is declared.
