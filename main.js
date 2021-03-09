@@ -28,20 +28,22 @@ myCodeImmersivesObj.cumulativeScore = 50
 myCodeImmersivesObj.cumulativeScore = myCodeImmersivesObj.currentScore + myCodeImmersivesObj.cumulativeScore
 
 // Now add a property called `I am exactly this cool` (you'll need bracket notation!) and set it to `soooooo cool`.
-
+myCodeImmersivesObj["I am exactly this cool"] = "sooooo cool"
 
 // Part 2 - your own object.
 // Now make a new EMPTY object that represents yourself. You won't put any properties in the curly braces, but just like in part 1, add them in each step below using plain JavaScript statements.
+const meAdam = {
 
+};
 
 // Add a `firstName` property and set it to a string.
-
+meAdam.fName = "Adam"
 
 // Add a `lastName` property and set it to a string.
-
+meAdam.lName = "Stebbins"
 
 // Add a `fullName` property and set it to the name properties put together with a space string in the middle.
-
+meAdam.fullName = meAdam.fName + meAdam.lName
 
 // Add an `age` property and set it to a number.
 
