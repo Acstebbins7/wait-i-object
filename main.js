@@ -58,6 +58,13 @@ meAdam.address.state = "North Carolina"
 
 // Part 3 - setting key-value pairs in-line.
 // Now make a new object, but this time we'll pre-populate it, not set it in any lines below it. In other words, the properties should be set the same way I initially set the `codeImmersivesObject` on line 1. It can be called whatever you want and can have whatever properties you want, as long as they include at least one string value, boolean value, number value, and array of numbers. The important thing here is: this should all be done within the brackets of the object, not below the place where the object is declared.
+const myFwends = {
+  thing1: "Lee",
+  thing2: true,
+  thing3: 34,
+  thing4: [21,345,467,0],
+  thing5: "NotRonny",
+}
 
-
+console.log(meAdam.address)
 // As a stretch goal, go back pre-populate the object with at least one property using a key name that CAN'T be a variable name. That would be anything with a space in it, or a dash, or starting with a number.
