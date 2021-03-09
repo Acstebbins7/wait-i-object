@@ -7,25 +7,25 @@ const myCodeImmersivesObj = {
 // You won't change lines 1-3 above, but instead set and change the properties for each step below by writing NEW code underneath each comment.
 
 // Below, set the value of property `wait` to be "I object".
-
+myCodeImmersivesObj.wait = "I object."
 
 // Add the new property `isAnExcellentObject` and set it to `true`.
-
+myCodeImmersivesObj.isAnExcellentObject = true
 
 // Add the property `term` and set it to 1.
-
+myCodeImmersivesObj.term = 1
 
 // Now add 1 to the value of your object's `term` property and put that new value back in your object's `term`.
-
+myCodeImmersivesObj.term + 1
 
 // Now add a new property called `currentScore` and set it to 3.
-
+myCodeImmersivesObj.currentScore = 3
 
 // Now add a new property called `cumulativeScore` and set it to 50.
-
+myCodeImmersivesObj.cumulativeScore = 50
 
 // Now add your `currentScore` and your `cumulativeScore` and put it back in `cumulativeScore`.
-
+myCodeImmersivesObj.cumulativeScore = myCodeImmersivesObj.currentScore + myCodeImmersivesObj.cumulativeScore
 
 // Now add a property called `I am exactly this cool` (you'll need bracket notation!) and set it to `soooooo cool`.
 
